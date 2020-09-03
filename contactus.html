@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"  content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>联系我们</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=da7d8ecf3989cfe8f825c96d603e7ad9"></script> 
+    <style>
+        html,body{
+            width: 100%;
+            display: inline-block;
+        }
+		.bly_address{
+			margin: 0 auto;
+			overflow: hidden;
+			margin-top: 67px;
+		}
+		.bly_address>div{
+			float: left;
+			width: 50%;
+		}
+		footer div{
+			padding: 13px 0;
+			background: #E0E0E0;
+			width: 100%;
+			text-align: center;
+			font-size: 12px;
+			color: #525252;
+			margin-top: 90px;
+		}
+		.contact_us_title{
+			width: 100%;
+			height: 590px;
+			border: 1px solid red;
+			box-sizing: border-box;
+		}
+		.contact_us_title img{
+			max-width: 100%;
+		}
+		#container {width:600; height: 500px; } 
+		 .bly_address>div:last-child{
+			 padding-left: 138px;
+			 box-sizing: border-box;
+			 margin-top: 120px;
+		 }
+		  .bly_address>div:last-child ul li{
+			  margin-top: 22px;
+			  color: #4F4F4F;
+			  font-size:20px;
+		  }
+		  .bly_address>div:last-child ul li:first-child{
+			  font-size: 24px;
+		  }
+			@media (min-width: 1200px){
+				.bly_address {
+					width: 1170px;
+				}
+			}
+			@media (max-width: 1024px){
+				.bly_address {
+					width: 970px;
+				}
+				.bly_address>div:last-child {
+				    padding-left: 50px;
+				}
+			}
+			@media (max-width: 768px){
+				.bly_address {
+					width: 100%;
+					padding: 0 20px;
+					box-sizing: border-box;
+					margin-top: 30px;
+				}
+				#container {width:100%; height: 160px; } 
+				.contact_us_title{
+					height: 120px;
+				}
+				 .bly_address>div{
+					 float: inherit;
+					 box-sizing: border-box;
+					 width: 100%;
+				 }
+				  .bly_address>div:last-child{
+					  padding-left: 0;
+					  margin-top: 30px;
+				  }
+				  .bly_address>div:last-child ul li{
+						  font-size:16px;
+				  }
+				  .bly_address>div:last-child ul li:first-child{
+						  font-size: 14px;
+				  }
+			}
+    </style>
+</head>
+<body>
+	<div class="contact_us">
+		<div class="contact_us_title"><img src="" alt=""></div>
+		<div class="bly_address">
+			<div id="container"></div> 
+			<div>
+				<ul>
+					<li>深圳贝乐因评估公司</li>
+					<li>联  系  人：张老师</li>
+					<li>电       话：135-2062-9723</li>
+					<li>中心地址：深圳福田区莲花大道江苏大厦A座4605</li>
+					<li>乘车路线：xxxxxxxxx</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>版权所有： 南京贝乐因健康管理有限公司 苏ICP备20031551号-1</div>
+	</footer>
+	<script>
+		 var map = new AMap.Map('container',{
+			 center: [114.055510,22.545686],
+			 zooms: [4,18],//设置地图级别范围
+			 zoom: 17
+		 });
+		// 创建一个 Marker 实例：
+		var marker = new AMap.Marker({
+		    position: new AMap.LngLat(114.055510,22.545686),   // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
+		    title: '深圳'
+		});
+		
+		// 将创建的点标记添加到已有的地图实例：
+		map.add(marker);
+	</script>
+</body>
+</html>
