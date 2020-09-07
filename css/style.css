@@ -745,7 +745,7 @@ ul, li {
     height: 60px;
     text-align: center;
     line-height: 66px;
-    border-radius: 100px;
+    border-radius: 100px;overlay-box h4
 }
 .wellcome-area .icon-box i:before {
     color: #ffffff;
@@ -3000,7 +3000,7 @@ a.simple-hover1 i {
 /* 7. Text Holder Area CSS
 /* =================================== */
 .text-holder {
-    padding: 25.5px 0; }
+    padding: 87.5px 0; }
 .text-holder h2 {
     font-size: 30px; }
 .text-holder p a {
@@ -4488,7 +4488,7 @@ body.s-color-two .secondary-color li.green:after {
     transition: 1s ease;
 }
 .why-choose .item:hover .inner-box {
-    padding: 10px;
+    /*padding: 50px;*/
     /* transition: .5s ease; */
     /* text-align: left; */
 }
@@ -4533,8 +4533,10 @@ body.s-color-two .secondary-color li.green:after {
     color: #48c7ec;
     font-size: 16px;
     transition: .5s ease-in-out;
-    text-align: left;
-    line-height: 25px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 70px;
 }
 
 .why-choose .overlay-box .text p {
