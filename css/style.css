@@ -176,7 +176,7 @@ ul, li {
     width: 100px;
     height: 3px;
     background: #fff;
-    border-bottom:3px double #00cc99;
+    border-bottom:3px double #ddc273;
     content: '';
 }
 .section-title p {
@@ -709,6 +709,7 @@ ul, li {
     width: 55px;
     border-radius:6px;
     height: 55px;
+    display: none;
 }
 .rev_slider_wrapper .tparrows:before {
     font-family: "FontAwesome";
@@ -727,14 +728,14 @@ ul, li {
 ***/
 
 .wellcome-area {
-    padding: 90px 0px;
+    padding: 6px 0px;
 }
 .wellcome-area .section-title {
     margin-bottom: 60px;
 }
 .wellcome-area .item-holder-box {
     position: relative;
-    padding: 30px;
+    padding: 0 30px;
     text-align:center;
 }
 .wellcome-area .icon-box {
@@ -2297,7 +2298,7 @@ ul, li {
     height: 160px;
     border-radius: 0px;
     box-shadow: none;
-    padding: 10px 20px;
+    padding: 10px 20px;.section-title
     resize: none;
     font-family: 'Roboto', sans-serif;
     border: 1px solid #f6f6f6;
@@ -2410,7 +2411,9 @@ h6 {
     padding: 100px 0; }
 
 .spt100 {
-    padding: 100px 0 0; }
+    padding: 100px 0 0;
+    margin-top: -160px;
+}
 
 .spb100 {
     padding: 0 0 100px; }
@@ -2425,7 +2428,7 @@ h6 {
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 75px; }
+    margin-bottom: 74px; }
 .section-title h2 {
     font-size: 30px; }
 
@@ -3124,7 +3127,7 @@ a.simple-hover1 i {
     height: 100%;
     width: 100%;
     content: "";
-    border: 4px solid #288feb;
+    border: 4px solid #ddc273;
     transform: scale(1.2);
     transition: 0.4s;
     -moz-transition: 0.4s;
@@ -4371,7 +4374,7 @@ body.s-color-two .secondary-color li.green:after {
 
 .fact-counter{
     position:relative;
-    padding: 70px 0px 40px;
+    padding: 0px 0px 40px;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center center;
