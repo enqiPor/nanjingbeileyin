@@ -48,6 +48,7 @@
         position: absolute;
         right: 0px;
         top: -70px;
+		z-index: 30;
     }
     .main-header-block .header-area{
         float: none !important;
@@ -236,9 +237,6 @@
 
 }
 @media only screen and (max-width: 660px){
-    .main-header-block .header-area{
-        margin-top: 0px!important;
-    }
     .header-top .top-left .contact-links li{
         display: block!important;
     }
